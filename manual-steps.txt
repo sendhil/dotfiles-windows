@@ -1,0 +1,2 @@
+1. When installing Komorebi - you need to configure `$Env:KOMOREBI_AHK_V2_EXE` and `$Env:KOMOREBI_CONFIG_HOME`
+2. Disable TaskBar Flashing
