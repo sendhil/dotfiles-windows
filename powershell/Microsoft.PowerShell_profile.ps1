@@ -10,6 +10,7 @@ function cdf() {
 
 Set-Alias -Name sudo -Value "C:\Program Files (x86)\gsudo\gsudo.exe"
 Set-Alias -Name pbcopy -Value "clip"
+Set-Alias -Name python3 -Value "python"
 
 oh-my-posh init pwsh --config "~/src/dotfiles-windows/powershell/.customized-theme.omp.json" | Invoke-Expression
 
