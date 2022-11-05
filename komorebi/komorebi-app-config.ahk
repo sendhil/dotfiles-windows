@@ -276,3 +276,4 @@ Run komorebic float-rule exe ueli.exe, , "Hide"
 ; GitHub Desktop
 Run komorebic identify-tray-application exe GitHubDesktop.exe, , "Hide"
 Run komorebic identify-border-overflow-application exe GitHubDesktop.exe, , "Hide"
+
