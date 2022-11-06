@@ -3,6 +3,10 @@ function Add-Path($Path) {
     [Environment]::SetEnvironmentVariable( "Path", $Path, "Machine" )
 }
 
+function Workspace-Space-Details($Monitor, $Space) {
+  komorebic state | jq ".monitors.elements[$Monitor].workspaces.elements[$Space]"
+}
+
 # Fast directory switch
 function cdf() {
   Invoke-Expression -Command "cd $(fd -t d | fzf)"
