@@ -44,6 +44,28 @@ ContainerPadding(1,8,2)
 ; This one is higher as I tend to put messaging apps on this Workspace and they look a little better with more padding.
 ContainerPadding(1,9,10)
 
+WorkspacePadding(0,0,0)
+WorkspacePadding(0,1,0)
+WorkspacePadding(0,2,0)
+WorkspacePadding(0,3,0)
+WorkspacePadding(0,4,0)
+WorkspacePadding(0,5,0)
+WorkspacePadding(0,6,0)
+WorkspacePadding(0,7,0)
+WorkspacePadding(0,8,0)
+WorkspacePadding(0,9,0)
+
+WorkspacePadding(1,0,0)
+WorkspacePadding(1,1,0)
+WorkspacePadding(1,2,0)
+WorkspacePadding(1,3,0)
+WorkspacePadding(1,4,0)
+WorkspacePadding(1,5,0)
+WorkspacePadding(1,6,0)
+WorkspacePadding(1,7,0)
+WorkspacePadding(1,8,0)
+WorkspacePadding(1,9,0)
+
 CompleteConfiguration()
 
 ; Change the focused window, Alt + Vim direction keys (HJKL)
