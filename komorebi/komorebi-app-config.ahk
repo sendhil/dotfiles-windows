@@ -279,3 +279,9 @@ Run komorebic identify-border-overflow-application exe GitHubDesktop.exe, , "Hid
 
 ; ShareX
 Run komorebic float-rule exe ShareX.exe, , "Hide"
+
+; Wox
+Run komorebic float-rule exe Wox.exe, , "Hide"
+
+; Wox
+Run komorebic float-rule exe Blender.exe, , "Hide"
