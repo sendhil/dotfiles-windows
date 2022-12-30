@@ -316,5 +316,9 @@ return
 Retile()
 return
 
+!#^+LButton::{
+ForceFocus()
+return
+
 ; Allow komorebi to start managing windows
 Run "komorebic complete-configuration", , "Hide"
