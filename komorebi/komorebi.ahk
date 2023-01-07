@@ -1,5 +1,13 @@
 #SingleInstance Force
 
+WM_DISPLAYCHANGE := 0x7E
+OnMessage(WM_DISPLAYCHANGE, "handle_display_change")
+
+handle_display_change(wParam, lParam)
+{
+    Retile()
+}
+
 ; You can generate a fresh version of this file with "komorebic ahk-library"
 #Include %A_ScriptDir%\komorebic.lib.ahk
 #Include %A_ScriptDir%\komorebi-app-config.ahk
@@ -318,6 +326,10 @@ return
 
 !#^+LButton::{
 ForceFocus()
+return
+
+!+q::
+Send !{f4}
 return
 
 ; Allow komorebi to start managing windows
